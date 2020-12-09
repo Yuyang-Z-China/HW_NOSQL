@@ -1,0 +1,9 @@
+1启动后访问
+http://localhost:8081/me/do/INCR_USER
+2在Redis新增一些元数据，没有测试数据是没法看到效果的
+如
+set User 1
+hset User1000 1
+3设置json文件
+里面可以加/减一些对redis的操作命令
+4页面上直接操作按钮，通过json文件配置的功能，实现对redis的封装操作
